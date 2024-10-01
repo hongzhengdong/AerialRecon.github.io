@@ -137,7 +137,7 @@
                 </h3>
                 <!-- <image src="img/rays.jpg" class="img-responsive" alt="overview"><br> -->
                 <p class="text-justify">
-We present a method for reconstructing high-quality meshes of large unbounded real-world scenes suitable for photorealistic novel view synthesis. We first optimize a hybrid neural volume-surface scene representation designed to have well-behaved level sets that correspond to surfaces in the scene. We then bake this representation into a high-quality triangle mesh, which we equip with a simple and fast view-dependent appearance model based on spherical Gaussians. Finally, we optimize this baked representation to best reproduce the captured viewpoints, resulting in a model that can leverage accelerated polygon rasterization pipelines for real-time view synthesis on commodity hardware. Our approach outperforms previous scene representations for real-time rendering in terms of accuracy, speed, and power consumption, and produces high quality meshes that enable applications such as appearance editing and physical simulation.
+                    We propose a novel drone application under real-world scenarios – free-viewpoint rendering of outdoor sports scenes, including the dynamic athlete and the 360° background. Outdoor sports have long-range human motions and large-scale scene structures which make the task rather challenging. Existing methods either rely on dense camera arrays which costs much, or a handheld moving camera which struggles to handle real sports scenes. We build a novel drone-based system using an RGB camera to reconstruct the 4D dynamic human along with the 3D unbounded scene, rendering free-viewpoint videos at any time. We also propose submodules for calibration and human motion capture, as a system-level design for improved robustness and efficiency. We collect a dataset AerialRecon and conduct extensive experiments on real-world scenarios. Compared with existing SOTA systems, our system demonstrates superior performance and applicability to real-world outdoor sports scenes.
                 </p>
             </div>
         </div>
@@ -293,14 +293,11 @@ We present a method for reconstructing high-quality meshes of large unbounded re
                 </h3>
                 <div class="form-group col-md-10 col-md-offset-1">
                     <textarea id="bibtex" class="form-control" readonly>
-@article{yariv2023bakedsdf,
-		title={BakedSDF: Meshing Neural SDFs for Real-Time View Synthesis},
-		author={Lior Yariv and Peter Hedman and Christian Reiser and
-				Dor Verbin and Pratul P. Srinivasan and Richard Szeliski and
-				Jonathan T. Barron and Ben Mildenhall},
-		journal={arXiv},
-		year={2023}
+@article{hongfree,
+  title={Free-Viewpoint Video of Outdoor Sports Using a Drone},
+  author={Hong, Zhengdong}
 }
+
 </textarea>
                 </div>
             </div>
